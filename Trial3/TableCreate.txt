@@ -1,0 +1,14 @@
+create table movies (
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(30) NOT NULL,
+    release_date INT NOT NULL,
+    duration INT NOT NULL,
+    score INT NOT NULL,
+    PRIMARY KEY (id)
+    );
+
+create table genres(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(20) NOT NULL,
+    PRIMARY KEY(id)
+    );
